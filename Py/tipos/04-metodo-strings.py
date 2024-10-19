@@ -1,0 +1,12 @@
+animal = " CeRdo gatO "
+print(animal.lower())
+print(animal.upper())
+print(animal.strip().capitalize())
+print(animal.title())
+print(animal.strip())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("Rd"))
+print(animal.replace("CeR", "P"))
+print("CeR" in animal)
+print("CeR" not in animal)
